@@ -1,11 +1,16 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Library LVVersion="24008000">
+<Library LVVersion="25008000">
 	<Property Name="Instrument Driver" Type="Str">True</Property>
 	<Property Name="NI.Lib.Description" Type="Str">LabVIEW Plug and Play instrument driver for IT-M3900C.</Property>
-	<Property Name="NI.Lib.Icon" Type="Bin">*!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!)_!!!*Q(C=\&gt;4.43."%)&lt;BDR7(P4K$F9^=+Q6(A'2#K"2]Z?A5+A20#I\!IF+9"&amp;:CDH-&gt;XGG8M2%)8R;*F?CG`@0VX_/?9;27@EOXGK[6]&gt;-S$[D78C_$U^?R`5XHNX-^^5]6V,RX`?@ZYY@TR\@T,`?`ZN?HZ;@`J```\L^3'0.Y&gt;&gt;!8&amp;_GG37F*#ZL4L0W[+=G40-G40-G40-C$0-C$0-C$X-G&gt;X-G&gt;X-G&gt;X-C.X-C.X-C.P&amp;6SE9N=Z*R+MHGS5&lt;*IME!S')K3F]34?"*0YO'L%E`C34S**`%Q2)EH]33?R*.YG+&lt;%EXA34_**0#T6*.EK/:\%Q`)+0)%H]!3?Q-/7#DQ").AM7$B9");#TO"$Y!E]A9?0#DS"*`!%HM"$NQ*0Y!E]A3@Q-+7&gt;3D4.8-HRM)Q=D_.R0)\(]&lt;#U()`D=4S/R`'QH2S0YX%1TI&lt;/YB$E4()'/&amp;]=D_0B49\(]4A?R_.Y['J8S.P*T*KZEO-R0)&lt;(]"A?Q]-3-DS'R`!9(M0$MD)]BM@Q'"\$QV9S0)&lt;(]"A19V/WF\'9-&gt;%9:!3'B\^WNVC\3N%EVGL^;RZP6.5.K,KR6$?-[E:187$6B6.&gt;%.6"KQZ1&gt;4#K([T[)3KA;G06AKK"'HDN;8N;2^P3.L1V&lt;56&lt;UB&lt;TV(]]="A'^8WP`8[PLOOUX7[VW7SU8K_V7KWU8#[V7#R?HV:`K-&gt;S=XIO0@+Z(Y@HQXWX?XLYOTP=X_U/$]0TH(^F/T[8PM/T5&lt;]U84TG/;-84Z$03Q!!!!!</Property>
-	<Property Name="NI.Lib.SourceVersion" Type="Int">604012544</Property>
+	<Property Name="NI.Lib.Icon" Type="Bin">*1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!)_!!!*Q(C=\&gt;4.43."%)&lt;BDR7(P4K$F9^=+Q6(A'2#K"2]Z?A5+A20#I\!IF+9"&amp;:CDH-&gt;XGG8M2%)8R;*F?CG`@0VX_/?9;27@EOXGK[6]&gt;-S$[D78C_$U^?R`5XHNX-^^5]6V,RX`?@ZYY@TR\@T,`?`ZN?HZ;@`J```\L^3'0.Y&gt;&gt;!8&amp;_GG37F*#ZL4L0W[+=G40-G40-G40-C$0-C$0-C$X-G&gt;X-G&gt;X-G&gt;X-C.X-C.X-C.P&amp;6SE9N=Z*R+MHGS5&lt;*IME!S')K3F]34?"*0YO'L%E`C34S**`%Q2)EH]33?R*.YG+&lt;%EXA34_**0#T6*.EK/:\%Q`)+0)%H]!3?Q-/7#DQ").AM7$B9");#TO"$Y!E]A9?0#DS"*`!%HM"$NQ*0Y!E]A3@Q-+7&gt;3D4.8-HRM)Q=D_.R0)\(]&lt;#U()`D=4S/R`'QH2S0YX%1TI&lt;/YB$E4()'/&amp;]=D_0B49\(]4A?R_.Y['J8S.P*T*KZEO-R0)&lt;(]"A?Q]-3-DS'R`!9(M0$MD)]BM@Q'"\$QV9S0)&lt;(]"A19V/WF\'9-&gt;%9:!3'B\^WNVC\3N%EVGL^;RZP6.5.K,KR6$?-[E:187$6B6.&gt;%.6"KQZ1&gt;4#K([T[)3KA;G06AKK"'HDN;8N;2^P3.L1V&lt;56&lt;UB&lt;TV(]]="A'^8WP`8[PLOOUX7[VW7SU8K_V7KWU8#[V7#R?HV:`K-&gt;S=XIO0@+Z(Y@HQXWX?XLYOTP=X_U/$]0TH(^F/T[8PM/T5&lt;]U84TG/;-84Z$03Q!!!!!</Property>
+	<Property Name="NI.Lib.SourceVersion" Type="Int">620789760</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
+	<Item Name="Controls" Type="Folder">
+		<Item Name="Data.ctl" Type="VI" URL="../Data.ctl"/>
+		<Item Name="PS Settings Cluster.ctl" Type="VI" URL="../PS Settings Cluster.ctl"/>
+		<Item Name="States Enum.ctl" Type="VI" URL="../States Enum.ctl"/>
+	</Item>
 	<Item Name="Private" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		<Property Name="NI.SortType" Type="Int">3</Property>
@@ -286,5 +291,13 @@
 		</Item>
 		<Item Name="Close.vi" Type="VI" URL="../IT-M3900C/Public/Close.vi"/>
 		<Item Name="Initialize.vi" Type="VI" URL="../IT-M3900C/Public/Initialize.vi"/>
+		<Item Name="IT-M3900C List Output.vi" Type="VI" URL="../IT-M3900C/Examples/IT-M3900C List Output.vi"/>
 	</Item>
+	<Item Name="SubVIs" Type="Folder">
+		<Item Name="Init File Ref.vi" Type="VI" URL="../Init File Ref.vi"/>
+		<Item Name="Init Report.vi" Type="VI" URL="../Init Report.vi"/>
+		<Item Name="List Output.vi" Type="VI" URL="../IT-M3900C/Examples/List Output.vi"/>
+		<Item Name="Using JSON for files.vi" Type="VI" URL="../Using JSON for files.vi"/>
+	</Item>
+	<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 </Library>
